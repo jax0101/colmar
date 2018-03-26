@@ -1,0 +1,92 @@
+/* Universal Styles */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+/* Header */
+ .main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+ }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  margin-left: 24px;
+  font-weight: 500;
+}
+
+#logo_a {
+  color: black;
+  font-size: 1rem;
+}
+#logo_b {
+  color: grey;
+  font-size: 1rem;
+}
+.desktop {
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 1.5rem;
+}
+nav a {
+  line-height: 1.2
+  font-size: 0.95rem;
+  padding: 1.5rem 0;
+}
+
+nav ul li {
+  padding: 1.5rem 0;
+  margin-left: 1rem;
+}
+
+ul a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Roboto";
+}
+header .mobile {
+  display: none;
+}
+.hero {
+  background-color: grey;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.image {
+  display: flex:
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
