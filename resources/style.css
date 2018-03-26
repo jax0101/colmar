@@ -70,10 +70,9 @@ header .mobile {
   background-color: grey;
   display: flex;
   justify-content: flex-start;
-  width: 100%;
 }
 .image {
-  display: flex:
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 60%;
@@ -89,4 +88,31 @@ header .mobile {
   flex-direction: column;
   justify-content: center;
   width: 40%;
+  padding-left: 24px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 71%;
+}
+
+h1 {
+  font-size: 2rem;
+  color: hsl(0, 0%, 30%);
+  font-weight: bold;
+}
+h3 {
+  color: hsl(0, 0%, 30%);
+  font-weight: bolder;
+  padding-bottom: 0.5rem;
+
+}
+
+.container p {
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center; 
 }
