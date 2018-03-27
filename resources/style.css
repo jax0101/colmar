@@ -67,7 +67,7 @@ header .mobile {
   display: none;
 }
 .hero {
-  background-color: grey;
+  background-color: #DCDCDC;
   display: flex;
   justify-content: flex-start;
 }
@@ -101,18 +101,91 @@ h1 {
   font-size: 2rem;
   color: hsl(0, 0%, 30%);
   font-weight: bold;
+  line-height: 1.5;
 }
 h3 {
   color: hsl(0, 0%, 30%);
   font-weight: bolder;
   padding-bottom: 0.5rem;
+  line-height: 1.5;
 
 }
 
 .container p {
   background-color: hsl(0, 0%, 30%);
   color: white;
-  padding: 0.5rem;
+  padding: 8px 8px;
   width: 100%;
-  text-align: center; 
+  text-align: center;
+}
+
+.twoup {
+  display: flex;
+  justify-content: flex-start;
+}
+.desktop_twoup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 1.5rem;
+  width: 60%;
+}
+
+.desktop_twoup img {
+  width: 100%;
+  height: auto;
+}
+
+.twoup h2 {
+  padding-bottom: 1rem;
+}
+.twoup .oneup {
+  border-left: 1px solid #DCDCDC;
+}
+
+.oneup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.stories {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+}
+.stories img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+.stories_text {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 481px) {
+  .site480 {
+    display: none;
+  }
+}
+.stories_text p {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+.stories_text a {
+  color: lightskyblue;
+  font-size: 0.75rem;
+  padding-top: 0.5rem;
+  text-decoration: none;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #DCDCDC
+  padding: 0 3.5rem;
 }
