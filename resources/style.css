@@ -231,3 +231,32 @@ h4 {
 font-size: 0.85rem;
 padding-bottom: 0.5rem;
 }
+.Thesiscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.thesiscontent {
+  display: flex;
+  align-items: flex-start;
+}
+.thesiscontent .LARGEthesis
+{
+  padding-top: 0;
+}
+.LARGEthesis {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 1.5rem;
+  width: 60%;
+}
+
+.thesiscontent video {
+  max-width: 100%;
+  height: auto;
+}
+.Thesiscontainer h3 {
+  padding: 1.5rem 0 0.5rem 0;
+}
