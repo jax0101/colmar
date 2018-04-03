@@ -157,6 +157,10 @@ h3 {
   border-top: 1px solid #DCDCDC;
   border-bottom: 1px solid #DCDCDC;
 }
+
+.stories:hover {
+  background-color: grey; 
+}
 .stories img {
   width: 35%;
   height: auto;
@@ -259,4 +263,27 @@ padding-bottom: 0.5rem;
 }
 .Thesiscontainer h3 {
   padding: 1.5rem 0 0.5rem 0;
+}
+footer {
+  display: flex;
+  height: 5rem;
+  width: 95%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 1rem 0rem 1.5rem;
+  border-top: 1px solid #DCDCDC;
+}
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+footer p, footer a {
+  color: #696969;
+  font-size: 0.8rem;
+  padding-right: 0.25rem;
+}
+.footernav ul {
+  display: flex;
+  justify-content: flex-end;
 }
