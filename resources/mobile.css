@@ -21,4 +21,19 @@
     width: 100%;
     padding-right: 2.5rem;
   }
+  header {
+    justify-content: space-around;
+  }
+  .twoup {
+    flex-direction: column;
+    width: 100%;
+  }
+  .desktop_twoup {
+    width: 100%;
+    padding: 0;
+  }
+  .oneup .stories {
+    width: auto;
+    padding: 2rem 1rem; 
+  }
 }
