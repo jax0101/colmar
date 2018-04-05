@@ -138,7 +138,11 @@ h3 {
   width: 100%;
   height: auto;
 }
-
+@media only screen and (min-width: 481px) {
+  .SMALL {
+    display: none; 
+  }
+}
 .twoup h2 {
   padding-bottom: 1rem;
 }
