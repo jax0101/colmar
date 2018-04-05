@@ -5,7 +5,7 @@
   }
 }
 
-@media screen and (max-width: 480px) and (Orientation : portrait) {
+@media only screen and (max-width: 480px) and (Orientation : portrait) {
 
   .main {
     max-width: 480px;
@@ -16,8 +16,26 @@
   }
 
   .mobile {
-  display: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 0rem;
+  padding-bottom: 0.75rem; 
   }
+  .logo, #logo_a, #logo_b {
+    display: none;
+  }
+
+  .hero .copy .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+  }
+
   header {
     justify-content: space-around;
   }
