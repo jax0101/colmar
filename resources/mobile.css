@@ -1,0 +1,24 @@
+@media only screen and (min-width: 481px) {
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .main {
+    max-width: 480px;
+  }
+
+  .Desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 2.5rem;
+  }
+}

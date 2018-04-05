@@ -12,6 +12,8 @@ html {
   align-items: center;
  }
 
+
+
 header {
   display: flex;
   justify-content: space-between;
@@ -66,6 +68,7 @@ ul a {
 header .mobile {
   display: none;
 }
+
 .hero {
   background-color: #DCDCDC;
   display: flex;
@@ -159,8 +162,12 @@ h3 {
 }
 
 .stories:hover {
-  background-color: grey; 
+  background-color: grey;
 }
+.text H3:hover {
+  color: lightskyblue;
+}
+
 .stories img {
   width: 35%;
   height: auto;
@@ -170,11 +177,7 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-@media only screen and (min-width: 481px) {
-  .SMALL {
-    display: none;
-  }
-}
+
 .stories_text p {
   font-size: 0.75rem;
   line-height: 1.5;
