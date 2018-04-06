@@ -62,9 +62,12 @@
 }
 
 .oneup {
-  width: 100%; 
+  width: 100%;
 }
   .LARGE {
     display: none;
+  }
+  .courses {
+    flex-direction: column;
   }
 }
