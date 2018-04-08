@@ -7,10 +7,6 @@
 
 @media only screen and (max-width: 480px) and (Orientation : portrait) {
 
-  .main {
-    max-width: 480px;
-  }
-
   .desktop {
     display: none;
   }
@@ -81,4 +77,15 @@
     width: 100%;
     margin: 0.5rem 0;
   }
+
+  .Thesiscontainer {
+  flex-direction: column;
+  width: 100%;
+  }
+
+  .thesisvideo {
+   flex-direction: column;
+    width: 100%;
+  }
+
 }
