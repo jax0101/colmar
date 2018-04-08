@@ -78,14 +78,28 @@
     margin: 0.5rem 0;
   }
 
-  .Thesiscontainer {
+.Thesiscontainer .thesiscontent {
+  flex-direction: column;
+}
+
+.thesisvideo video {
   flex-direction: column;
   width: 100%;
-  }
+  height: auto;
+}
+#LARGEthesis {
+  width: auto;
+  padding: 2rem 1rem;
+align-items: center;
+text-align: center;
+}
 
-  .thesisvideo {
-   flex-direction: column;
-    width: 100%;
-  }
+.Thesiscontainer h3 {
+  padding-top: 2rem;
+}
+
+.Thesiscontainer .oneup {
+  flex-direction: column;
+}
 
 }
