@@ -20,6 +20,9 @@ h1, h2, g3, h4, p {
 header {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid grey; 
   align-items: center;
   width: 100%;
   height: 4rem;
@@ -138,7 +141,7 @@ h3 {
   align-items: flex-start;
   padding: 2rem 1.5rem;
   width: 60%;
-  max-height: auto; 
+  max-height: auto;
 
 }
 
