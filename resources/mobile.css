@@ -52,6 +52,17 @@
 .desktop_twoup {
   width: 100%;
 }
+.desktop_twoup img {
+  max-width: 95%;
+}
+.stories .SMALL img {
+  height: auto;
+  padding: 10px;
+  width: 130px;
+  height: 130px;
+  margin-right: .5em;
+  margin-bottom: .3em;
+}
 
 .quote_twoup {
   padding: 1rem;
@@ -63,6 +74,8 @@
   .LARGE {
     display: none;
   }
+
+
   .courses {
     flex-direction: column;
     width: 100%;

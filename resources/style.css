@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 /* Header */
@@ -75,6 +75,8 @@ header .mobile {
 .hero {
   background-color: #DCDCDC;
   display: flex;
+  max-width: 100%;
+  height: auto;
   justify-content: flex-start;
 }
 .image {
@@ -82,6 +84,7 @@ header .mobile {
   flex-direction: column;
   align-items: flex-start;
   width: 60%;
+  height: auto;
   padding: 2rem 1.5rem;
 }
 
@@ -121,7 +124,7 @@ h3 {
   background-color: hsl(0, 0%, 30%);
   color: white;
   padding: 8px 8px;
-  width: 100%;
+  width: 60%;
   text-align: center;
 }
 
@@ -135,10 +138,12 @@ h3 {
   align-items: flex-start;
   padding: 2rem 1.5rem;
   width: 60%;
+  max-height: auto; 
+
 }
 
 .desktop_twoup img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 @media only screen and (min-width: 481px) {
